@@ -24,11 +24,13 @@ public class BoardController {
 
 	private BoardService service;
 
+	//이건 어노테이션
 	@GetMapping("/register")
 	public void register() {
 
 	}
 
+	//이건 수정
 	// @GetMapping("/list")
 	// public void list(Model model) {
 	//
